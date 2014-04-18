@@ -1,6 +1,4 @@
-package
-
-moviestore.commands;
+package moviestore.commands;
 
 import moviestore.Inventory;
 import moviestore.util.InventoryUtil;
