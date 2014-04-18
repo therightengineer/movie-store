@@ -1,5 +1,5 @@
 /**
- * This class implements factory pattern to create factory instances.
+ * This class implements factory pattern to create Movie instances.
  */
 package moviestore.util;
 
