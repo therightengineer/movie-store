@@ -25,9 +25,9 @@ public class InventoryUtil {
 	private InventoryUtil(){
 	}
 
-	private static final String COMMAND_FILE_NAME = "/Users/jhalde/Documents/workspace/Assignment3/src/moviestore/command.txt";
-	private static final String MEMENTO_FILE_NAME = "/Users/jhalde/Documents/workspace/Assignment3/src/moviestore/memento.txt";
-	private static final String MEMENTO_FILE_NAME_SAFE = "/Users/jhalde/Documents/workspace/Assignment3/src/moviestore/mementoTemp.txt";
+	private static final String COMMAND_FILE_NAME = "/Users/src/moviestore/command.txt";
+	private static final String MEMENTO_FILE_NAME = "/Users/src/moviestore/memento.txt";
+	private static final String MEMENTO_FILE_NAME_SAFE = "/Users/src/moviestore/mementoTemp.txt";
 	private static final double NOT_IN_STOCK_PRICE = 0;
 	private static final int NOT_IN_STOCK_QUANTITY = 0;
 
