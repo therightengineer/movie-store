@@ -168,6 +168,9 @@ public class Inventory implements Iinventory<Movie>{
 	 * Compares two maps and returns true if they are equal
 	 */
 	private boolean compareMaps(Map<Integer,Movie> map1, Map<Integer,Movie>map2){
+		if(map1 == map2){
+			return true;
+		}
 		if(map1.size() != map2.size()){
 			return false;
 		}
