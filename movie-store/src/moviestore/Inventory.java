@@ -175,8 +175,15 @@ public class Inventory implements Iinventory<Movie>{
 			return false;
 		}
 		for(Integer id : map1.keySet()){
-			if(!(map1.get(id).equals(map2.get(id)))){
-				return false;
+			Movie movie = map1.get(id);
+			if(movie != null){
+				if(!(movie.equals(map2.get(id)))){
+					return false;
+				}
+			}else{
+				if(map2.get(id) != null){
+					return false;
+				}
 			}
 		}
 		return true;
