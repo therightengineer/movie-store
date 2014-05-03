@@ -20,7 +20,7 @@ import moviestore.commands.Command;
 import moviestore.model.Movie;
 import moviestore.model.NullMovie;
 
-public class InventoryUtil {
+public final class InventoryUtil {
 
 	private InventoryUtil(){
 	}
